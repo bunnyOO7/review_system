@@ -1,0 +1,24 @@
+services:
+
+  backend:
+    build: ./backend
+    container_name: review_backend
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build: ./frontend
+    container_name: review_frontend
+
+    ports:
+      - "5500:5500"
+
+    volumes:
+      - ./frontend:/app
+
+    depends_on:
+      - backend
