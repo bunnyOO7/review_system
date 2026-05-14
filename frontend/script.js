@@ -1,7 +1,7 @@
-const API_URL = "http://127.0.0.1:8000";
+// const API_URL = "http://127.0.0.1:8000";
 
 // const API_URL = "https://review-system-1-ub1h.onrender.com";
-
+const API_URL = "http://3.111.188.38:8000";
 const GOOGLE_REVIEW_URL =
 "https://g.page/r/CUn49duBi3nNEBM/review";
 
