@@ -1,14 +1,402 @@
 [
-    {
-        "id": 1,
-        "review": "Amazing cinematic experience. Very professional photography and beautiful editing work. Highly recommended."
-    },
-    {
-        "id": 2,
-        "review": "Loved the overall experience. The team was friendly and the final output looked amazing."
-    },
-    {
-        "id": 3,
-        "review": "Very smooth experience from shoot to delivery. Editing quality was really impressive."
-    }
+  {
+    "id": 1,
+    "review": "Awesome photography.. really loved the pre wedding shoot by Lensmen Studio. Video editing was just wow."
+  },
+  {
+    "id": 2,
+    "review": "Booked Lensmen Studio for wedding photography in Jaipur. Team was professional and photos came out very cinematic."
+  },
+  {
+    "id": 3,
+    "review": "Best wedding photographers in Jaipur."
+  },
+  {
+    "id": 4,
+    "review": "Photos quality is very nice. Album looked premium and cinematic."
+  },
+  {
+    "id": 5,
+    "review": "We recently booked Lensmen Studio for a wedding function and honestly the whole experience was very smooth from start to finish. The team was friendly, patient and very professional during all events. The candid photography came out beautiful and the cinematic video editing looked amazing on big screen. Everyone in our family loved the final output. Highly recommended for wedding photography in Jaipur."
+  },
+  {
+    "id": 6,
+    "review": "Their cinematic wedding videos are on another level. Color grading looked like a movie."
+  },
+  {
+    "id": 7,
+    "review": "Osm photography team.. very supporting and friendly."
+  },
+  {
+    "id": 8,
+    "review": "Very happy with the candid wedding photography. Final video made everyone emotional."
+  },
+  {
+    "id": 9,
+    "review": "Booked for a corporate event shoot. Team was punctual and professional."
+  },
+  {
+    "id": 10,
+    "review": "Good service and affordable pricing."
+  },
+  {
+    "id": 11,
+    "review": "Superb!!!!! Totally worth it."
+  },
+  {
+    "id": 12,
+    "review": "Very creative photography team. Song selection and editing was perfect."
+  },
+  {
+    "id": 13,
+    "review": "Got my portfolio shoot done from Lensmen Studio. Lighting setup was amazing."
+  },
+  {
+    "id": 14,
+    "review": "Bhot badiya kaam kiya inlogo ne. Album quality is premium."
+  },
+  {
+    "id": 15,
+    "review": "Booked for birthday photography. Beautiful memories captured by the team."
+  },
+  {
+    "id": 16,
+    "review": "Very proffessional team and nice editing work."
+  },
+  {
+    "id": 17,
+    "review": "The documentary style wedding film was captured beautifully. Best decision to book Lensmen Studio."
+  },
+  {
+    "id": 18,
+    "review": "We did our pre wedding and wedding shoot with Lensmen Studio and the results were honestly beyond expectations. Team made the whole shoot feel very comfortable and natural. They guided properly during poses and captured many candid moments beautifully. The teaser video, drone shots and color grading looked super cinematic. Delivery was also smooth and the album quality felt premium. One of the best photography teams in Jaipur for sure."
+  },
+  {
+    "id": 19,
+    "review": "Nice work 👍"
+  },
+  {
+    "id": 20,
+    "review": "Had a really good experience with Lensmen Studio for a corporate and product shoot. The team understood exactly what kind of visuals we wanted for our brand and delivered quality work on time. Product photos looked clean and premium while the event coverage was handled professionally. Editing was simple and classy, not overdone. Overall very satisfied with the service and communication."
+  },
+  {
+    "id": 21,
+    "review": "Amazing candid shots and natural editing."
+  },
+  {
+    "id": 22,
+    "review": "Loved the wedding teaser video. Music sync was amazing."
+  },
+  {
+    "id": 23,
+    "review": "Very supportive team and quality work."
+  },
+  {
+    "id": 24,
+    "review": "The photos came out very clean and premium looking."
+  },
+  {
+    "id": 25,
+    "review": "Booked them for a haldi function. All moments captured beautifully."
+  },
+  {
+    "id": 26,
+    "review": "One of the best photography teams in Jaipur."
+  },
+  {
+    "id": 27,
+    "review": "Good experiance overall."
+  },
+  {
+    "id": 28,
+    "review": "Lensmen Studio handled our wedding photography very professionally. Team was punctual in every function and made the whole process stress free. The candid clicks, family portraits and cinematic videos all looked amazing. Even relatives were asking about the photography team after watching the final trailer. Thank you for capturing memories so beautifully."
+  },
+  {
+    "id": 29,
+    "review": "Very creative editing style and smooth transitions."
+  },
+  {
+    "id": 30,
+    "review": "Nice work and humble staff."
+  },
+  {
+    "id": 31,
+    "review": "Product shoot images looked premium and detailed."
+  },
+  {
+    "id": 32,
+    "review": "Very professional photography service."
+  },
+  {
+    "id": 33,
+    "review": "Wedding album quality was top notch."
+  },
+  {
+    "id": 34,
+    "review": "Really happy with the final output."
+  },
+  {
+    "id": 35,
+    "review": "Food photography for our cafe looked very attractive and aesthetic."
+  },
+  {
+    "id": 36,
+    "review": "Good team 👍"
+  },
+  {
+    "id": 37,
+    "review": "The cinematic wedding film looked like a proper movie. Drone shots and color grading were just amazing."
+  },
+  {
+    "id": 38,
+    "review": "Very cooperative team during the whole shoot."
+  },
+  {
+    "id": 39,
+    "review": "Nice editing and quick delivery."
+  },
+  {
+    "id": 40,
+    "review": "Booked for baby shower photography. Beautiful memories captured."
+  },
+  {
+    "id": 41,
+    "review": "Very professional behaviour and good communication."
+  },
+  {
+    "id": 42,
+    "review": "Loved the natural candid photography style."
+  },
+  {
+    "id": 43,
+    "review": "Best pre wedding shoot experience."
+  },
+  {
+    "id": 44,
+    "review": "Everything was managed properly from shoot to delivery."
+  },
+  {
+    "id": 45,
+    "review": "Very creative and hardworking photography team."
+  },
+  {
+    "id": 46,
+    "review": "Good photography and cinematic editing."
+  },
+  {
+    "id": 47,
+    "review": "The team made us feel comfortable throughout the pre wedding shoot. Locations suggested by them were beautiful and the final teaser looked super cinematic. Editing, song selection and transitions all felt very professional. Definitely recommending Lensmen Studio to friends and family."
+  },
+  {
+    "id": 48,
+    "review": "Very nice team and quality work."
+  },
+  {
+    "id": 49,
+    "review": "Corporate event coverage was handled smoothly."
+  },
+  {
+    "id": 50,
+    "review": "Album design looked elegant and classy."
+  },
+  {
+    "id": 51,
+    "review": "Amazing wedding photography service in Jaipur."
+  },
+  {
+    "id": 52,
+    "review": "Very smooth experiance."
+  },
+  {
+    "id": 53,
+    "review": "The teaser video gave us goosebumps honestly."
+  },
+  {
+    "id": 54,
+    "review": "Very nice editing work."
+  },
+  {
+    "id": 55,
+    "review": "Fashion and clothing shoot came out very premium."
+  },
+  {
+    "id": 56,
+    "review": "Team was polite and easy to work with."
+  },
+  {
+    "id": 57,
+    "review": "The wedding highlights video was emotional and beautifully edited."
+  },
+  {
+    "id": 58,
+    "review": "Highly recommended for candid wedding photography."
+  },
+  {
+    "id": 59,
+    "review": "Good service."
+  },
+  {
+    "id": 60,
+    "review": "Very talented and creative photographers."
+  },
+  {
+    "id": 61,
+    "review": "Pre wedding reel looked amazing on Instagram."
+  },
+  {
+    "id": 62,
+    "review": "Nice support from the team during all events."
+  },
+  {
+    "id": 63,
+    "review": "Really liked the cinematic color tones."
+  },
+  {
+    "id": 64,
+    "review": "Very proffesional and punctual team."
+  },
+  {
+    "id": 65,
+    "review": "The photos looked natural and not over edited."
+  },
+  {
+    "id": 66,
+    "review": "One of the smoothest photography experiences we had. Team was very calm even during crowded wedding moments and managed everything professionally. Final delivery included cinematic videos, reels and album which all looked premium. Worth every penny honestly."
+  },
+  {
+    "id": 67,
+    "review": "Amazing lighting setup and camera quality."
+  },
+  {
+    "id": 68,
+    "review": "Good photography service for weddings and events."
+  },
+  {
+    "id": 69,
+    "review": "Very happy with the cinematic video editing."
+  },
+  {
+    "id": 70,
+    "review": "Team captured all important moments perfectly."
+  },
+  {
+    "id": 71,
+    "review": "Nice experiance with Lensmen Studio."
+  },
+  {
+    "id": 72,
+    "review": "Product shoot was done very professionally."
+  },
+  {
+    "id": 73,
+    "review": "The candid shots are just beautiful."
+  },
+  {
+    "id": 74,
+    "review": "Highly talented photography team."
+  },
+  {
+    "id": 75,
+    "review": "Good communication and timely delivery."
+  },
+  {
+    "id": 76,
+    "review": "Wedding trailer editing was next level."
+  },
+  {
+    "id": 77,
+    "review": "Very cooperative and friendly photographers."
+  },
+  {
+    "id": 78,
+    "review": "Photos and videos both came out amazing."
+  },
+  {
+    "id": 79,
+    "review": "Best decision to book Lensmen Studio for our wedding."
+  },
+  {
+    "id": 80,
+    "review": "Amazing work guys 👏"
+  },
+  {
+    "id": 81,
+    "review": "Corporate photoshoot quality was excellent."
+  },
+  {
+    "id": 82,
+    "review": "The editing style was modern and classy."
+  },
+  {
+    "id": 83,
+    "review": "Good quality albums and cinematic videos."
+  },
+  {
+    "id": 84,
+    "review": "Really professional team."
+  },
+  {
+    "id": 85,
+    "review": "The team captured emotions very naturally."
+  },
+  {
+    "id": 86,
+    "review": "Affordable and quality service."
+  },
+  {
+    "id": 87,
+    "review": "Loved the drone shots and wedding teaser."
+  },
+  {
+    "id": 88,
+    "review": "Very supportive during the whole event."
+  },
+  {
+    "id": 89,
+    "review": "Product and brand shoot looked very premium."
+  },
+  {
+    "id": 90,
+    "review": "Nice editing and natural colors."
+  },
+  {
+    "id": 91,
+    "review": "Very nice wedding photography team."
+  },
+  {
+    "id": 92,
+    "review": "Good work and smooth coordination."
+  },
+  {
+    "id": 93,
+    "review": "Candid photography was really impressive."
+  },
+  {
+    "id": 94,
+    "review": "Very professional setup and cameras."
+  },
+  {
+    "id": 95,
+    "review": "Loved the final cinematic wedding film."
+  },
+  {
+    "id": 96,
+    "review": "Good service and humble behaviour."
+  },
+  {
+    "id": 97,
+    "review": "Beautifully captured memories."
+  },
+  {
+    "id": 98,
+    "review": "The team handled everything very smoothly."
+  },
+  {
+    "id": 99,
+    "review": "Really satisfied with the final output."
+  },
+  {
+    "id": 100,
+    "review": "Amazing photography and editing work by Lensmen Studio."
+  }
 ]
