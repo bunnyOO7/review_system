@@ -1,48 +1,56 @@
-let currentReviewId = null;
+const API_URL = "http://127.0.0.1:8000";
 
-const API_URL = "https://review-system-1-ub1h.onrender.com";
-const GOOGLE_REVIEW_URL = "https://g.page/r/CUn49duBi3nNEBM/review";
+// const API_URL = "https://review-system-1-ub1h.onrender.com";
+
+const GOOGLE_REVIEW_URL =
+"https://g.page/r/CUn49duBi3nNEBM/review";
 
 window.onload = function(){
-    loadReviewOnPageLoad();
+    loadReview();
 };
 
-async function loadReviewOnPageLoad(){
+async function loadReview(){
 
-    const savedReview = localStorage.getItem("savedReview");
-    const savedReviewId = localStorage.getItem("savedReviewId");
+    try{
 
-    if(savedReview){
-        document.getElementById("reviewText").value = savedReview;
-        currentReviewId = savedReviewId;
-        return;
-    }
+        const response =
+        await fetch(`${API_URL}/get-review`);
 
-    const response = await fetch(`${API_URL}/get-review`);
-    const data = await response.json();
+        const data = await response.json();
 
-    if(data.review){
-        document.getElementById("reviewText").value = data.review;
-        currentReviewId = data.id;
+        if(data.review){
 
-        localStorage.setItem("savedReview", data.review);
-        localStorage.setItem("savedReviewId", data.id);
+            document.getElementById("reviewText").value =
+            data.review;
+
+            document.getElementById("status").innerHTML =
+            "Review loaded.";
+
+        } else {
+
+            document.getElementById("status").innerHTML =
+            "No reviews left.";
+        }
+
+    } catch(error){
+
+        console.log(error);
 
         document.getElementById("status").innerHTML =
-        "Review loaded.";
-    } else {
-        document.getElementById("status").innerHTML =
-        "No reviews left.";
+        "Backend connection failed.";
     }
 }
 
 function copyReview(){
 
-    const text = document.getElementById("reviewText").value;
+    const text =
+    document.getElementById("reviewText").value;
 
     if(!text.trim()){
+
         document.getElementById("status").innerHTML =
         "No review to copy.";
+
         return;
     }
 
@@ -54,8 +62,13 @@ function copyReview(){
 
 function openGoogleReview(){
 
-    localStorage.removeItem("savedReview");
-    localStorage.removeItem("savedReviewId");
-
     window.open(GOOGLE_REVIEW_URL, "_blank");
+
+    setTimeout(() => {
+
+        document.getElementById("reviewText").value = "";
+
+        loadReview();
+
+    }, 1000);
 }
